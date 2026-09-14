@@ -1,7 +1,7 @@
 ---
 name: design-quality
 license: CC0-1.0
-description: Clean up AI-generated UI and polish frontend designs, diagrams, documents, images, and videos. Improve visual hierarchy, spacing, alignment, typography, and color consistency; remove clutter and inspect rendered results. Use for visual creation, cleanup, or review, not text-only editing.
+description: Improve layout, spacing, alignment, typography, and color while preserving the requested scope. Use for visual design creation, refinement, or review across interfaces, diagrams, documents, images, and video—not text-only edits or code changes without a visual-design task.
 ---
 
 - Prioritize the user's instructions, approved design, and requested scope. Inspect reference images and URLs directly. For visual-only requests, preserve content, functionality, numbers, and captions. Do not require other design skills or a dedicated engine.
@@ -12,5 +12,5 @@ description: Clean up AI-generated UI and polish frontend designs, diagrams, doc
 - Use diagrams to show comparison, containment, sequence, or responsibility. Give titles a clear subject and point; use short labels at a consistent level of detail. Put explanations in body text, narration, or notes rather than pasting paragraphs into diagrams or using sentence fragments as titles. Preserve units, conditions, and required wording. Do not apply this compression uniformly to prose-led documents.
 - Open the result in its intended environment and at the target viewport sizes. Measure rendered dimensions, edges, spacing, and centers of both outer frames and inner shapes—not just values in code. Check the rendered top and bottom of text against the centers of neighboring shapes. Check both sides, every scene, and intermediate states for clipping, overlap, and shifting comparison baselines.
 - After changes, remeasure the same areas and retain before-and-after values and images. Visually inspect the images to judge hierarchy, whitespace, and decoration. Successful measurements or a single opening image are not enough. Follow existing measurement and inspection procedures.
-- Give the creator and independent reviewer this skill and the finished artifact. Report the screen or scene and timestamp, inspection images, measurements, unnecessary elements, reasons for retaining supporting context, and any unverified media. Do not report only "looks good."
+- Use an independent reviewer only when requested or when a specific, significant risk justifies it; provide them with this skill and the finished artifact. Report the screen or scene and timestamp, inspection images, measurements, unnecessary elements, reasons for retaining supporting context, and any unverified media. Do not report only "looks good."
 - Keep project-specific colors, caption positions, resolutions, and diagram patterns in the project. Record sources and usage conditions for external materials and distinguish them from original work. Never infer permission to publish.
