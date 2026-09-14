@@ -1,0 +1,16 @@
+---
+name: design-quality
+license: CC0-1.0
+description: Clean up AI-generated UI and polish frontend designs, diagrams, documents, images, and videos. Improve visual hierarchy, spacing, alignment, typography, and color consistency; remove clutter and inspect rendered results. Use for visual creation, cleanup, or review, not text-only editing.
+---
+
+- Prioritize the user's instructions, approved design, and requested scope. Inspect reference images and URLs directly. For visual-only requests, preserve content, functionality, numbers, and captions. Do not require other design skills or a dedicated engine.
+- Remove meaningless decoration, containers, and repeated explanations; group related elements. Preserve units, comparison conditions, and necessary context.
+- Align outer dimensions, baselines, typography, and inner spacing for elements with the same role. Preserve meaningful differences such as data-encoded lengths and intentional left alignment. When text does not fit, reconsider layout and wrapping before shrinking individual text elements.
+- Assign roles for backgrounds, surfaces, text, accents, and caption bands using the approved palette or a color reference with a verified source. Use consistent colors for consistent roles, distinguish surfaces, and ensure readable contrast. Aim for at least 4.5:1 for small text and check it at actual viewing size.
+- Present the requested number of alternatives with identical content so the actual results can be compared. Video proposals must include real diagrams or visual content, not only title frames. Compare lines, fills, and shadows when exploring shapes; hold approved shapes and dimensions fixed when exploring colors. Do not impose one project's decorative style on another.
+- Use diagrams to show comparison, containment, sequence, or responsibility. Give titles a clear subject and point; use short labels at a consistent level of detail. Put explanations in body text, narration, or notes rather than pasting paragraphs into diagrams or using sentence fragments as titles. Preserve units, conditions, and required wording. Do not apply this compression uniformly to prose-led documents.
+- Open the result in its intended environment and at the target viewport sizes. Measure rendered dimensions, edges, spacing, and centers of both outer frames and inner shapes—not just values in code. Check the rendered top and bottom of text against the centers of neighboring shapes. Check both sides, every scene, and intermediate states for clipping, overlap, and shifting comparison baselines.
+- After changes, remeasure the same areas and retain before-and-after values and images. Visually inspect the images to judge hierarchy, whitespace, and decoration. Successful measurements or a single opening image are not enough. Follow existing measurement and inspection procedures.
+- Give the creator and independent reviewer this skill and the finished artifact. Report the screen or scene and timestamp, inspection images, measurements, unnecessary elements, reasons for retaining supporting context, and any unverified media. Do not report only "looks good."
+- Keep project-specific colors, caption positions, resolutions, and diagram patterns in the project. Record sources and usage conditions for external materials and distinguish them from original work. Never infer permission to publish.

@@ -1,0 +1,6 @@
+interface:
+  display_name: "design-quality"
+  short_description: "Cleaner designs through spacing, alignment, and visual checks"
+  default_prompt: "Use $design-quality to improve spacing, alignment, and color while preserving the content."
+policy:
+  allow_implicit_invocation: true
