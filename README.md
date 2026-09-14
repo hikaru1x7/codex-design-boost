@@ -35,7 +35,19 @@ Choose this skill for compact, design-system-neutral guidance with rendered chec
 
 ## Install
 
-Ask Codex:
+### Terminal command
+
+With [Node.js](https://nodejs.org/) installed, run:
+
+```bash
+npx skills add hikaru1x7/codex-design-boost --skill design-quality
+```
+
+Choose Codex and your preferred installation scope when prompted. The [Skills CLI](https://github.com/vercel-labs/skills#install-a-skill) downloads the skill directly from GitHub.
+
+### Alternatively, ask Codex
+
+Enter this in Codex instead of your terminal:
 
 ```text
 Use $skill-installer to install design-quality from
