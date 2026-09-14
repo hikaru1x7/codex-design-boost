@@ -2,13 +2,13 @@
 
 Fix messy Codex designs with one small, plain-text skill.
 
-**Small instructions. Cleaner designs. No extra machinery.**
+**Small instructions. Big design improvements. No extra machinery.**
 
 Too many boxes. Uneven spacing. Misaligned text. Decoration that gets in the way.
 
 Codex Design Boost gives your agent a short set of design rules: remove visual noise, align related elements, use color consistently, and inspect the actual result—not just the code.
 
-Built to make a noticeable difference without a heavyweight setup. The author created it after repeatedly finding Codex's visual output frustrating, and reports a substantial improvement in their own workflow. That is personal experience, not a controlled benchmark.
+Turn cluttered, inconsistent Codex output into cleaner, more polished designs—with a short set of plain-text instructions, not a heavyweight setup.
 
 An instruction-only AI agent skill for UI design cleanup, frontend polish, typography, spacing, alignment, color consistency, and visual review.
 
